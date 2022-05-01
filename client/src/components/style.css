@@ -1,0 +1,87 @@
+.Navbar {
+    background-color: black;
+    /* Transparency needed */
+}
+
+#nav-link {
+    color: #EC7910;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.Button {
+    background-color: black; 
+    font-size: 18px; 
+    color: #EC7910; 
+    font-weight: 600;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.Title {
+    font-size: 32px; 
+    color: #EC7910;
+    line-height: 1;
+    font-weight: 600;
+    margin-right: 15px;
+    margin-left: 15px;
+    white-space: nowrap;
+}
+
+.Title:hover {
+    font-size: 32px; 
+    color: #EC7910;
+    line-height: 1;
+    font-weight: 600;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#Player {
+    font-size: 18px; 
+    color: #EC7910;
+    line-height: 1;
+    font-weight: 600;
+    margin-right: 15px;
+    margin-left: 15px;
+    display: inline;
+    vertical-align: middle;
+}
+
+#Logo {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#PlayerBox {
+    border-radius: 5px;
+    border: 1px solid blue;
+    display: inline;
+}
+
+.transparent {
+    opacity: 0.8; 
+    
+    /* Smoothly transition the opacity */
+    transition: opacity .2s;
+}
+
+.transparent:hover {
+    opacity: 1.0;
+    cursor: pointer;
+}
+
+#textbox{
+    display: inline-block;
+    max-width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px; 
+    color: #EC7910;
+    line-height: 1;
+    font-weight: 600;
+    margin-right: 15px;
+    margin-left: 15px;
+    vertical-align: middle;
+}
